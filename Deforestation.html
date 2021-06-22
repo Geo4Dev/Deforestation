@@ -1593,7 +1593,7 @@ library(sf)</code></pre>
 </div>
 <div id="accessing-vcf-in-r" class="section level3">
 <h3><span class="header-section-number">2.2.4</span> Accessing VCF in R</h3>
-<p>Once the required packages have been attached, we can access VCF in R. We prefer using R for its ability to download large numbers of files and enable regular, automated updates. For other tools to access <em>MODIS</em> data, see this NASA<a href="https://modis.gsfc.nasa.gov/tools/">website</a>.</p>
+<p>Once the required packages have been attached, we can access VCF in R. We prefer using R for its ability to download large numbers of files and enable regular, automated updates. For other tools to access <em>MODIS</em> data, see this NASA <a href="https://modis.gsfc.nasa.gov/tools/">website</a>.</p>
 <p>We can first use <em>luna</em> to check the list of data products available from <em>MODIS</em>. Since <em>luna</em> can also access data from the <em>LANDSAT</em> and <em>SENTINEL</em> platforms, we add <code>&quot;^MOD|^MYD|^MCD&quot;</code> to narrow our scope to <em>MODIS</em> data. The printed results below list six products from <em>MODIS</em>.</p>
 <pre class="r"><code>MODIS.product = getProducts(&quot;^MOD|^MYD|^MCD&quot;)
 head(MODIS.product)</code></pre>

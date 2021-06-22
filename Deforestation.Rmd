@@ -84,7 +84,7 @@ Troubleshooting Note: If you receive the message "package or namespace load fail
 
 ### Accessing VCF in R
 
-Once the required packages have been attached, we can access VCF in R. We prefer using R for its ability to download large numbers of files and enable regular, automated updates. For other tools to access _MODIS_ data, see this NASA[website](https://modis.gsfc.nasa.gov/tools/).
+Once the required packages have been attached, we can access VCF in R. We prefer using R for its ability to download large numbers of files and enable regular, automated updates. For other tools to access _MODIS_ data, see this NASA [website](https://modis.gsfc.nasa.gov/tools/).
 
 We can first use _luna_ to check the list of data products available from _MODIS_. Since _luna_ can also access data from the _LANDSAT_ and _SENTINEL_ platforms, we add `"^MOD|^MYD|^MCD"` to narrow our scope to _MODIS_ data. The printed results below list six products from _MODIS_. 
 ```{r}
