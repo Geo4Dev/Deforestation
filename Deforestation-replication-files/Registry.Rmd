@@ -1,0 +1,42 @@
+---
+title: "Deforestation Registry"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# Description
+
+The [Vegetation Continuous Fields](https://lpdaac.usgs.gov/products/mod44bv006/) (VCF) data is provided by the Land Processes Distributed Active Archive Center (LP DAAC), a component of NASA's Earth Observing System Data and Information System (EOSDIS). The MOD44B Version 6 VCF is a yearly representation of surface vegetation from 2000 to 2020 at 250 m resolution. Each pixel stores a percentage of three ground cover components: percent tree cover, percent non-tree cover, and percent bare.
+
+The ground cover percentages are estimates from a machine learning model based on the combination of the Moderate Resolution Imaging Spectroradiometer ([MODIS](https://modis.gsfc.nasa.gov/)) data and other high resolution data from NASA and Google Earth. The machine learning model incorporates the visible bandwidth as well as other bandwidth such as brightness temperature (from MODIS bands 20, 31, 32). 
+
+The VCF data utilize thermal signatures and other correlates to distinguish forest and non-forest plantation, which is an improvement compared to the Normalized Differenced Vegetation Index (NDVI). For this use case, VCF also improves on the Global Forest Cover (GFC) data set, another source used to study deforestation, which only provides binary data points. GFC records baseline forest cover in the year 2000 and includes a binary indicator for the year of deforestation for each 30m × 30m pixel. If over 90% of the forest cover was lost in a pixel by a given year, then the pixel is marked as deforested, while a pixel is marked as reforested if the forest cover went from 0 in 2000 to a positive value. The VCF records continuous changes in percent of ground cover components, which provides more details than the GFC data. 
+
+## Updating Frequency
+Annual
+
+## Documentation
+
+* [User guide](https://modis.gsfc.nasa.gov/data/dataprod/mod44.php#:~:text=The%20current%20V004%20collection%20of,500%2Dm%20Surface%20Reflectance%20data.) for Version 4 of the VCF. 
+* [User guide](https://lpdaac.usgs.gov/documents/112/MOD44B_User_Guide_V6.pdf) for Version 6 of the VCF. 
+
+## Accessig Requirements
+Data can be accessed through various tools. For more information, please refer to the MOD44B Version 6 VCF page below. 
+
+## URL
+https://lpdaac.usgs.gov/products/mod44bv006/
+
+## Contact
+Project PI: Charlene DiMiceli, contact via email: cdimicel@umd.edu
+
+# Tools and Usage Examples
+## Tools
+* Geo4Dev deforestation learning module
+
+## Usage Examples
+* [The Ecological Impact of Transportation Infrastructure](https://academic.oup.com/ej/article-abstract/130/629/1173/5798996?redirectedFrom=fulltext) by Sam Asher, et. al.
+* [The Spatiotemporal Variation of Tree Cover in the Loess Plateau of China after the ‘Grain for Green’ Project](https://doaj.org/article/eca1db0171444869ac04850724e7e5e8) by Yuhang Wang, et.al.
+* [Impacts of forests on children’s diet in rural areas across 27 developing countries](https://advances.sciencemag.org/content/4/8/eaat2853) by Ranaivo A. Rasolofoson, et.al.
+* [Economic Development and Forest Cover: Evidence from Satellite Data](https://www.nature.com/articles/srep40678) by Jesus Crespo Cuaresma, et.al.
+
