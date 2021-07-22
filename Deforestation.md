@@ -133,9 +133,6 @@ The following code will download the files. Replace the path value with the loca
 getModis("MOD44B", start.date, end.date, aoi, download = T, path = YourPathHere,  username = YourNASAUserName, password = YourPassWord)
 ```
 
-```{r, include = F, eval = F}
-getModis("MOD44B", start.date, end.date, aoi, download = T, path = "./data/VCFexample",  username = "nayers", password = "y_8zV_EZtP4xxQj")
-```
 The data format from _MODIS_ is HDF and may include sub-datasets. We can use `terra` to read these files and create raster files. For example,
 ```{r, warning=F}
 hdf.example = rast("./data/VCFexample/MOD44B.A2009065.h25v06.006.2017081034537.hdf")
