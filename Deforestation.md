@@ -1,15 +1,3 @@
----
-title: "Deforestation Learning Module"
-output: 
-  html_document:
-      toc: true
-      toc_float: true
-      number_sections: true
----
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
-knitr::opts_knit$set(root.dir = '.') # change working directory to local
-```
 # INTRODUCTION 
 
 ## Introduction to Remote Sensing
