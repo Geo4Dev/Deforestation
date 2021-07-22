@@ -1,6 +1,6 @@
 # Geo4Dev deforestation learning module
 
-This learning module introduces Vegetation Continuous Fields (VCF) data.  The repository contains following files. 
+This learning module introduces Vegetation Continuous Fields (VCF) data. Deforestation.md is the complete learning module. The Deforestation-replication-files folder contains Rmd and html versions of the Deforestation module and the Registry of associated information. Deforestation-replication-files contains the following files:
 
 ## Files:
 
