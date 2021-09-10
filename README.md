@@ -11,4 +11,4 @@ This learning module introduces Vegetation Continuous Fields (VCF) data.  The re
 * Deforestation-files/figure-html/: Folder containing images used in Deforestation.html  
   
 Primary Author: [Shanchao Wang](https://github.com/shanchaowang)  
-Additional Contributions from: [Natalie Ayers](https://github.com/natalie-ayers)  
+Additional contributions from: [Natalie Ayers](https://github.com/natalie-ayers)  
