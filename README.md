@@ -8,3 +8,4 @@ This learning module introduces Vegetation Continuous Fields (VCF) data.  The re
 * Registry.html: final product of data registry page.
 * Deforestation.Rmd: R markdown file to create html
 * Registry.Rmd: R markdown file to create html
+* Deforestation-files/figure-html/: Folder containing images used in Deforestation.html
